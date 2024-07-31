@@ -40,6 +40,10 @@ catch(error){
     console.log(error);
     input.style.color = "red"
     input.value = ("Something went wrong")
+     humiditydis.textContent = ""
+    tempdis.textContent = ""
+    temp2.textContent = ""
+    infodis.textContent = ""
     
 }
 
